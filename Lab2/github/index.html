@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">
+            <svg height="32" viewBox="0 0 16 16" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </div>
+
+        <nav class="site-nav">
+            <ul>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Solutions</a></li>
+                <li><a href="#">Open Source</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <form action="/search" method="get" class="search-form">
+                <label for="site-search" class="visually-hidden">Search GitHub</label>
+                <input type="search" id="site-search" name="q" placeholder="Search..." class="search-input">
+            </form>
+            <a href="#" class="btn-link">Sign in</a>
+            <a href="#" class="btn btn-outline">Sign up</a>
+        </div>
+    </header>
+
+    <main class="main-content">
+        
+        <section class="hero-section">
+            <h1>Try the Copilot-powered platform</h1>
+            <p class="hero-desc">
+                We get it, there’s a lot you can do with GitHub. That’s why we’ve packed all of it into a single risk-free trial.
+            </p>
+            <a href="#" class="btn btn-dark">Start free for 30 days</a>
+        </section>
+
+        <section class="pricing-plans">
+            <div class="pricing-grid">
+                
+                <article class="pricing-card">
+                    <h2 class="plan-title">Free</h2>
+                    <p class="plan-desc">The basics for individuals and organizations</p>
+                    <div class="price-container">
+                        <span class="currency">$</span>0 <span class="period">USD per user/month</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="#" class="btn btn-outline btn-block">Join for free</a>
+                    </div>
+                    <ul class="features-list">
+                        <li>Unlimited public/private repositories</li>
+                        <li>2,000 CI/CD minutes/month</li>
+                        <li>500MB of Packages storage</li>
+                    </ul>
+                </article>
+
+                <article class="pricing-card">
+                    <h2 class="plan-title">Team</h2>
+                    <p class="plan-desc">Advanced collaboration for individuals and organizations</p>
+                    <div class="price-container">
+                        <span class="currency">$</span>4 <span class="period">USD per user/month</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="#" class="btn btn-dark btn-block">Continue with Team</a>
+                    </div>
+                    <ul class="features-list">
+                        <li>Everything included in Free, plus...</li>
+                        <li>Access to GitHub Codespaces</li>
+                        <li>Protected branches</li>
+                        <li>Draft pull requests</li>
+                    </ul>
+                </article>
+
+                <article class="pricing-card recommended">
+                    <div class="recommend-badge">Recommended</div>
+                    <h2 class="plan-title">Enterprise</h2>
+                    <p class="plan-desc">Security, compliance, and flexible deployment</p>
+                    <div class="price-container">
+                        <span class="currency">$</span>21 <span class="period">USD per user/month</span>
+                    </div>
+                    <div class="card-actions">
+                        <a href="#" class="btn btn-dark btn-block">Start a free trial</a>
+                        <a href="#" class="btn btn-outline btn-block">Contact Sales</a>
+                    </div>
+                    <ul class="features-list">
+                        <li>Everything included in Team, plus...</li>
+                        <li>Data residency</li>
+                        <li>Enterprise Managed Users</li>
+                        <li>SAML single sign-on</li>
+                        <li>Audit log API</li>
+                    </ul>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2024 GitHub Clone. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
