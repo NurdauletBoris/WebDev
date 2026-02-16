@@ -1,0 +1,20 @@
+
+let value = true;
+alert(typeof value); 
+value = String(value); 
+alert(typeof value); 
+
+
+let str = "123";
+alert(typeof str); 
+let num = Number(str); 
+alert(typeof num); 
+
+
+
+
+alert( Boolean(1) ); 
+alert( Boolean(0) ); 
+alert( Boolean("hello") ); 
+alert( Boolean("") ); 
+
